@@ -1,0 +1,15 @@
+.App {
+    --header_height: 60px;
+}
+
+.hw {
+width: 800px;
+
+}
+
+.hwTitle {
+    font-weight: bold;
+    margin: 5px;
+
+
+}

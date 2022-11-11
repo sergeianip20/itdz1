@@ -1,0 +1,52 @@
+.friendMessage {
+    position:relative;
+    width:800px;
+}
+
+.friendImageAndText {
+    position: relative;
+    width: 800px;
+    height: 50px;
+    color:white;
+}
+
+.friendImageAndText img {
+    position: absolute;
+    top:0;
+    right:0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.friendText {
+    position: absolute;
+    top: 0;
+    right: 65px;
+    background: #0066CC;
+  padding: 7px;
+    border-radius: 25px 15px 0px 15px;
+}
+
+.friendText:after {
+
+}
+
+.friendName {
+    font-weight: bolder;
+    padding: 5px 5px 5px 5px ;
+
+
+}
+
+.friendMessageText {
+
+}
+
+.friendTime {
+    font-size: 10px;
+    position: absolute;
+    top: 60px ;
+    right: 15px;
+
+}
