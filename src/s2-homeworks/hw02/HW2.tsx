@@ -22,6 +22,7 @@ export type AffairType = {
     _id: number // need to fix any
     name: string // need to fix any
     priority: AffairPriorityType
+
 }
 export type FilterType = 'all' | AffairPriorityType
 
