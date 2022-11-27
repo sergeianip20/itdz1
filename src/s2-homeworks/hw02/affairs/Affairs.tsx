@@ -11,7 +11,7 @@ type AffairsPropsType = {
 }
 
 function Affairs(props: AffairsPropsType) {
-    const setAll = () => {
+    const setAll = (e:string) => {
        props.setFilter('all')
     }
     const setHigh = () => {
@@ -43,7 +43,7 @@ function Affairs(props: AffairsPropsType) {
             <div className={s.buttonContainer}>
                 <button
                     id={'hw2-button-all'}
-                    onClick={setAll}
+                    onClick={() => {setAll('all')}}
                     className={cnAll}
                 >
                     All
