@@ -42,10 +42,10 @@ const SuperInputText: React.FC<SuperInputTextPropsType> = (
     }
     const onKeyPressCallback = (e: KeyboardEvent<HTMLInputElement>) => {
         onKeyPress?.(e)
+ if(onEnter && e.key === 'Enter' ) {
+     onEnter()
+ }
 
-        onEnter && // если есть пропс onEnter
-        e.key === 'Enter' && // и если нажата кнопка Enter
-        onEnter() // то вызвать его
     }
 
     const finalSpanClassName = s.error
