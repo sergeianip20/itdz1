@@ -28,9 +28,10 @@ z-index: 5;
 }
 
 .nav {
-  position: relative;
-    width: 100%;
-
+  display: grid;
+    text-align: center;
+    grid-row-gap: 15px;
+ margin: 50px 0px 0px 0px;
 
 }
 
@@ -65,13 +66,9 @@ z-index: 5;
 
 .close img {
 }
-.juniorPlus {
-    position: absolute;
-    width: 138px;
-    height: 27px;
-    left: 70px;
-    top: 207px;
 
+
+.linkStyles  {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
@@ -82,41 +79,9 @@ z-index: 5;
 
     color: #000000;
 }
-.junior {
-    position: absolute;
-    width: 72px;
-    height: 27px;
-    left: 70px;
-    top: 135px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
+.active {
 
 
-    color: #000000;
-}
-.prejunior {
-    position: absolute;
-    width: 114px;
-    height: 27px;
-    left: 70px;
-    top: 63px;
-
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 22px;
-    line-height: 27px;
-    /* identical to box height */
-
-    text-decoration-line: underline;
-
-    color: #000000;
-
-
+    color: #0059B2;
 
 }
